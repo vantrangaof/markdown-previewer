@@ -67,7 +67,7 @@ footer {
 }
 @media screen and (max-width: 850px) {
     *{
-        margin: 5px;
+        margin: 10px;
     }
     .previewer {
       max-width: 100%;
@@ -81,8 +81,21 @@ footer {
       resize: none;
     }
   }
-
-table {
+  
+  
+  @media screen and (max-width: 650px) {
+    body {
+      margin: 0px;
+    }
+    .editor {
+      width: 80vw;
+      margin: 0 auto;
+    }
+    .previewer {
+      width: 90vw;
+    }
+  }
+  table {
     border-collapse: collapse;
   }
 
@@ -99,4 +112,5 @@ table {
     margin: 2rem auto;
   }
   
- 
+  
+  
