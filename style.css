@@ -67,7 +67,7 @@ footer {
 }
 @media screen and (max-width: 850px) {
     *{
-        margin: 10px;
+        margin: 5px;
     }
     .previewer {
       max-width: 100%;
@@ -82,16 +82,4 @@ footer {
     }
   }
   
-  
-  @media screen and (max-width: 650px) {
-    body {
-      margin: 0px;
-    }
-    .editor {
-      width: 80vw;
-      margin: 0 auto;
-    }
-    .previewer {
-      width: 90vw;
-    }
-  }
+ 
