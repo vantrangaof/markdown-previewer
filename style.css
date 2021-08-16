@@ -65,3 +65,37 @@ footer {
     padding-top: 50px;
     text-align: center;
 }
+@media screen and (max-width: 850px) {
+    *{
+        margin: 10px;
+    }
+    .previewer {
+      max-width: 100%;
+    }
+    .editor {
+      max-width: 550px;
+    }
+  
+    .textarea {
+      min-height: 60vh;
+      resize: none;
+    }
+  }
+  
+  
+  @media screen and (max-width: 650px) {
+    body {
+      margin: 5px 0;
+    }
+    .editor {
+      width: 80vw;
+      margin: 0 auto;
+    }
+    .maximized {
+      width: 95%;
+      margin: auto;
+    }
+    .previewer {
+      width: 90vw;
+    }
+  }
