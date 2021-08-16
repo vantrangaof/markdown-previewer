@@ -93,7 +93,7 @@ footer {
     }
     .previewer {
       width: 90vw;
-      padding-top: 10px;
+      margin-top: 20px;
     }
   }
   table {
