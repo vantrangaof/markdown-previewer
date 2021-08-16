@@ -85,7 +85,7 @@ footer {
   
   @media screen and (max-width: 650px) {
     *{
-        margin: 2px;
+        margin: 5px;
     }
     .editor {
       width: 80vw;
@@ -93,6 +93,7 @@ footer {
     }
     .previewer {
       width: 90vw;
+      padding-top: 10px;
     }
   }
   table {
