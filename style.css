@@ -81,5 +81,22 @@ footer {
       resize: none;
     }
   }
+
+table {
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  img {
+    display: block;
+    max-width: 90%;
+    margin: 2rem auto;
+  }
   
  
